@@ -16,7 +16,7 @@ plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
 
 def keepa_data(ASIN,COUNTRY):
     #https://keepa.com/#!api  keepa数据的api
-    accesskey = '8ga5ilhbo9qgknjgsh0ffnbrbbrh6f7742c7ev0f3ge3pp95t5dgvoaepnf66pc7' # enter real access key here
+    accesskey = 'change yours' # enter real access key here
     api = keepa.Keepa(accesskey)
     products = api.query(ASIN,domain=COUNTRY)  #offers=[20-100]
     product = products[0]
